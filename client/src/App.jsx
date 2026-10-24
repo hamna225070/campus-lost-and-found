@@ -21,7 +21,7 @@ import NotFoundPage from './pages/NotFoundPage';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/campus-lost-and-found">
         <div className="app-container">
           <Navbar />
           <main className="main-content">
