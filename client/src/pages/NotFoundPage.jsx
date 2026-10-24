@@ -45,11 +45,11 @@ export const NotFoundPage = () => {
         </p>
 
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-          <Link to="/" className="btn btn-primary">
+         <Link to="/campus-lost-and-found/" className="btn btn-primary">
             <Home size={16} />
             <span>Return to Home</span>
           </Link>
-          <Link to="/items" className="btn btn-secondary">
+         <Link to="/campus-lost-and-found/items" className="btn btn-secondary">
             <Search size={16} />
             <span>Browse Items</span>
           </Link>
